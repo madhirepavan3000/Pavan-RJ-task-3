@@ -1,0 +1,21 @@
+.color-picker-heading{
+  font-weight: bold;
+  font-size: 35px;
+  color: rgb(50, 81, 235); 
+}
+.app-container {
+  width: 100vw; /* 100% of the viewport width */
+  height: 100vh; /* 100% of the viewport height */
+  margin: 0;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('background.jpg'); /* Add your image file path here */
+  background-size: cover; /* Cover the entire container */
+  background-repeat: no-repeat;
+}
+
